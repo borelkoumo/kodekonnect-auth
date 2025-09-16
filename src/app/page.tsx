@@ -13,10 +13,10 @@ export default function Home() {
       <img
         src="/kodekonnect-main.jpg"
         alt="Kodekonnect in classroom"
-        className="max-h-96 w-full object-cover shadow-2xl"
+        className="max-h-96 w-full object-cover shadow-2xl border border-amber-100"
       />
       <div className="flex flex-col justify-between items-stretch gap-8 h-2xl md:flex-row">
-        <div className="flex flex-col justify-start items-center gap-8 bg-amber-200 px-8 py-8">
+        <div className="flex flex-col justify-start items-center gap-8 bg-amber-200 px-8 py-8 shadow-lg">
           <AcademicCapIcon className="w-16 h-16 text-amber-600" />
           <h2 className="text-center text-xl font-bold text-red-800">
             Un mentor pour chaque étape
@@ -26,7 +26,7 @@ export default function Home() {
             dans l’IT.
           </p>
         </div>
-        <div className="flex flex-col justify-start items-center gap-8 bg-green-200 px-8 py-8">
+        <div className="flex flex-col justify-start items-center gap-8 bg-green-200 px-8 py-8 shadow-lg">
           <ClipboardDocumentListIcon className="w-16 h-16 text-green-600" />
           <h2 className="text-center text-xl font-bold text-red-800">
             Des ressources pratiques
@@ -36,7 +36,7 @@ export default function Home() {
             rapidement.
           </p>
         </div>
-        <div className="flex flex-col justify-start items-center gap-8 bg-blue-200 px-8 py-8">
+        <div className="flex flex-col justify-start items-center gap-8 bg-blue-200 px-8 py-8 shadow-lg">
           <UsersIcon className="w-16 h-16 text-blue-600" />
           <h2 className="text-center text-xl font-bold text-red-800">
             Une communauté engagée
