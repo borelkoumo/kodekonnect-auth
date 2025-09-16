@@ -8,8 +8,24 @@ import Loader from '@/components/Loader';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Next auth',
-  description: 'Next auth with Clerck and Mongodb',
+  title: {
+    template: '%s | Kodekonnect',
+    default: 'Kodekonnect | Learn by connecting to professionals',
+  },
+  referrer: 'strict-origin-when-cross-origin',
+  keywords: [
+    'Kodekonnect',
+    'Borel KOUMO',
+    'Clerk',
+    'Next.js',
+    'React',
+    'JavaScript',
+  ],
+  authors: [{ name: 'Borel Koumo' }],
+  creator: 'Borel KOUMO',
+  publisher: 'Borel KOUMO',
+  description:
+    'Apprenez, connectez, évoluez avec Kode Konnect. The app is built with Next.js Clerck and Mongodb',
 };
 
 export default function RootLayout({

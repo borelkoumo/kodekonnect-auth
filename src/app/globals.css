@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@theme {
+  /* custom colors */
+  --color-primary-red: #FF2020;
+  --color-primary-gray: #3F4B5B;
+}
